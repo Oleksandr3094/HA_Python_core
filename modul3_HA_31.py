@@ -1,5 +1,6 @@
 import datetime as dt
 from datetime import timedelta, datetime as dtdt
+
 def get_days_from_today(date):
     today_date = dtdt.now().date()
     date=dtdt.strptime(date, '%Y-%m-%d').date()
